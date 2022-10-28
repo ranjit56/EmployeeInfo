@@ -1,25 +1,21 @@
 package com.employeeinfo.controller.test;
 
-import static org.mockito.Mockito.when;
 
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.ui.Model;
 
 import com.employeeinfo.controller.UserRegistrationController;
 import com.employeeinfo.domain.UserRegistrationDto;
 import com.employeeinfo.entity.Employee;
-import com.employeeinfo.entity.User;
 import com.employeeinfo.repository.EmployeeRepository;
 import com.employeeinfo.service.EmployeeService;
 import com.employeeinfo.service.UserService;
 
 @SpringBootTest(classes= {UserRegistrationControllerTest.class})
-@RunWith(SpringJUnit4ClassRunner.class)
+//@RunWith(SpringJUnit4ClassRunner.class)
 public class UserRegistrationControllerTest {
 	
 	@InjectMocks

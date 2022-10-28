@@ -14,7 +14,7 @@ import com.employeeinfo.repository.EmployeeRepository;
 import com.employeeinfo.service.EmployeeService;
 
 @SpringBootTest(classes= {MainControllerTest.class})
-@RunWith(SpringJUnit4ClassRunner.class)
+//@RunWith(SpringJUnit4ClassRunner.class)
 public class MainControllerTest {
 	
 	@InjectMocks

@@ -22,12 +22,13 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import com.employeeinfo.controller.test.MainControllerTest;
 import com.employeeinfo.entity.Employee;
 import com.employeeinfo.repository.EmployeeRepository;
 import com.employeeinfo.service.EmployeeServiceImpl;
 
-@SpringBootTest
-@RunWith(SpringJUnit4ClassRunner.class)
+@SpringBootTest(classes= {EmployeeServiceImplTest.class})
+//@RunWith(SpringJUnit4ClassRunner.class)
 public class EmployeeServiceImplTest {
 
 	@InjectMocks
